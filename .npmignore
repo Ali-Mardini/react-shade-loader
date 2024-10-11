@@ -1,0 +1,17 @@
+# Exclude development dependencies
+node_modules/
+src/
+.vscode/
+.idea/
+
+# Build configuration
+.babelrc
+tsconfig.json
+package-lock.json
+.gitignore
+.npmignore
+
+# Logs and temporary files
+*.log
+
+example

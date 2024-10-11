@@ -1,0 +1,49 @@
+{
+  "name": "react-shade-loader",
+  "version": "1.0.0",
+  "main": "dist/SkeletonLoader.js",
+  "types": "dist/SkeletonLoader.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc && npm run copy-css",
+    "copy-css": "copyfiles -u 1 src/**/*.css dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ali-Mardini/react-shade-loader.git"
+  },
+  "keywords": [
+    "react",
+    "skeleton",
+    "loader",
+    "skeleton-loader",
+    "react-component"
+  ],
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "author": "Ali Mardini",
+  "license": "MIT",
+  "description": "A lightweight and customizable skeleton loader for React.",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.5.0",
+    "@testing-library/react": "^16.0.1",
+    "@testing-library/user-event": "^14.5.2",
+    "@types/jest": "^29.5.13",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.0",
+    "@types/testing-library__react": "^10.2.0",
+    "copyfiles": "^2.4.1",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.6.3"
+  }
+}
